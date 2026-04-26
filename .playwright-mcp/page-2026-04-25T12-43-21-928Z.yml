@@ -1,0 +1,11 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "My Website" [level=1] [ref=e5]
+  - main [ref=e6]:
+    - heading "Welcome to my website." [level=2] [ref=e7]
+    - paragraph [ref=e8]: This is the content of my website.
+    - separator [ref=e9]
+    - list [ref=e10]:
+      - listitem [ref=e11]: Item 1
+      - listitem [ref=e12]: Item 2
+      - listitem [ref=e13]: Item 3
