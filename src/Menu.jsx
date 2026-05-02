@@ -5,7 +5,7 @@ const Menu = () => {
         <a href='/' className='text-lg font-semibold text-zinc-100'>
           My Website
         </a>
-        <ul className='ml-auto flex space-x-4 text-zinc-100'>
+        <ul className='ml-auto flex space-x-6 text-zinc-100'>
         <li>
           <a href='/'>Home</a>
         </li>

@@ -20,9 +20,9 @@ const ItemList = ({ items }) => (
 );
 
 const Content = () => (
-  <main className='max-w-5xl mx-auto px-4 py-6 text-gray-300'>
+  <main className='max-w-5xl mx-auto px-4 pt-[90px] pb-6 text-gray-300'>
     <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-start'>
-      <div>
+      <div className='text-center lg:text-left'>
         <h2 className='text-xl font-medium text-white mb-2'>
           Welcome to my website.
         </h2>
