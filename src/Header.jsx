@@ -1,9 +1,10 @@
 import heroBg from './img/anime_city-wallpaper-1920.jpg';
 import Button from './Button.jsx';
 
-const Header = ({ title }) => {
+const Header = ({ title = 'Welcome' }) => {
   return (
     <header
+      aria-label="Hero banner with anime city background"
       className='relative w-full h-[60vh] flex items-center justify-center bg-top bg-cover bg-no-repeat'
       style={{ backgroundImage: `url(${heroBg})` }}
     >
@@ -13,7 +14,7 @@ const Header = ({ title }) => {
           {title}
         </h1>
         <a href='#' className='inline-block mt-4'>
-          <Button>Learn More</Button>
+          <Button variant="primary" size="md">Learn More</Button>
         </a>
       </div>
     </header>
