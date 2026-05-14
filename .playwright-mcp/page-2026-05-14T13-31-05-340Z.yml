@@ -1,0 +1,32 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "My Website" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Home" [ref=e9] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e10]:
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e12]:
+          - link "Contact" [ref=e13] [cursor=pointer]:
+            - /url: /contact
+  - banner [ref=e14]:
+    - generic [ref=e16]:
+      - heading "My Website" [level=1] [ref=e17]
+      - link "Learn More" [ref=e18] [cursor=pointer]:
+        - /url: "#"
+        - button "Learn More" [ref=e19]
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - heading "Welcome to my website." [level=2] [ref=e23]
+        - paragraph [ref=e24]: This is the content of my website.
+        - separator [ref=e25]
+        - list [ref=e26]:
+          - listitem [ref=e27]: ✓Box of Rain (Nature)
+          - listitem [ref=e28]: ✓Cloudy Skies (Weather)
+          - listitem [ref=e29]: ✓Rainbow Sherbert (Food)
+      - img "my image" [ref=e31]
