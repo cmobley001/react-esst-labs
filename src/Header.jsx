@@ -1,4 +1,5 @@
 import heroBg from './img/anime_city-wallpaper-1920.jpg';
+import Button from './Button.jsx';
 
 const Header = ({ title }) => {
   return (
@@ -11,6 +12,9 @@ const Header = ({ title }) => {
         <h1 className='text-5xl font-bold text-white tracking-tight drop-shadow-lg'>
           {title}
         </h1>
+        <a href='#' className='inline-block mt-4'>
+          <Button>Learn More</Button>
+        </a>
       </div>
     </header>
   );
